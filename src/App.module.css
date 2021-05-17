@@ -1,0 +1,33 @@
+.Parent {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 30em 50em 30em;
+  grid-template-rows: 10em auto 30em;
+
+  height: 99em;
+}
+
+.Container {
+  background: linear-gradient(
+    16deg,
+    rgb(20, 20, 20) 0%,
+    rgb(43, 43, 43) 42%,
+    rgba(54, 54, 54, 1) 100%
+  );
+  border: rgb(90, 90, 90) solid 0.5em;
+  border-radius: 1.5em ;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+
+  color: white;
+}
+
+button {
+    border-radius: 0.5em;
+    background-color: rgb(115, 160, 160);
+}
+
+input {
+    width: 80%;
+}
